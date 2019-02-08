@@ -1,7 +1,7 @@
-/*
+//*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
- */
+ *//
 package com.codebrains.basics.strings;
 import com.codebrains.classobject.basics.Student;
 import java.util.Scanner;
