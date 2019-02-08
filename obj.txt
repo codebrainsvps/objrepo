@@ -1,0 +1,31 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.codebrains.basics.strings;
+import com.codebrains.classobject.basics.Student;
+import java.util.Scanner;
+
+/**
+ *
+ * @author shiva
+ */
+public class DeleteWord {
+  public static void main(String a[])
+    {
+        Scanner scan=new Scanner(System.in);
+       System.out.println("Nter a sentence"); 
+       String st=scan.nextLine();//java is so greate
+       
+     
+      
+       System.out.println("Nter a target"); 
+       String target=scan.next();//so
+      int start=st.indexOf(target);//8
+      int end=target.length();//2
+       StringBuilder result=new StringBuilder(st);
+        System.out.println(result.delete(start, start+end+1).toString());
+    }
+      
+  
+}
